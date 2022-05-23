@@ -7,15 +7,12 @@ import Upload from '~/pages/Upload';
 import Search from '~/pages/Search';
 
 const publicRoutes = [
-    // Khong can dang nhap van xem duoc
-    { path: '/', component: Home },
-    { path: '/following', component: Following },
-    { path: '/profile', component: Profile },
-    { path: '/upload', component: Upload, layout: HeaderOnly },
-    { path: '/search', component: Search, layout: null },
+  { path: '/', component: Home },
+  { path: '/following', component: Following },
+  { path: '/profile', component: Profile },
+  { path: '/upload', component: Upload, layout: HeaderOnly },
+  { path: '/search', component: Search, layout: null },
 ];
-const privateRoutes = [
-    //Phai dang nhap moi xem duoc
-];
+const privateRoutes = [];
 
 export { publicRoutes, privateRoutes };

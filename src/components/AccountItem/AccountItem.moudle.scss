@@ -1,0 +1,38 @@
+.wrapper {
+  padding: 5px 16px;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+
+  &:hover {
+    background: rgba(0, 0, 0, 0.12);
+  }
+}
+
+.avatar {
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  margin-right: 12px;
+  object-fit: cover;
+}
+
+.info {
+  flex: 1;
+}
+
+.account {
+  color: rgb(22, 24, 35);
+  font-weight: 700;
+}
+
+.account-color {
+  color: rgb(32, 213, 236);
+  margin-left: 4px;
+}
+
+.name {
+  color: rgba(22, 24, 35, 0.75);
+  font-weight: 400;
+  font-size: 1.4rem;
+}
