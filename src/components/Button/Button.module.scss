@@ -1,4 +1,7 @@
 .wrapper {
+  display: inline-flex;
+  justify-content: center;
+  align-items: center;
   font-size: 1.6rem;
   font-weight: 700;
   min-width: 100px;
@@ -16,6 +19,11 @@
     pointer-events: none;
     opacity: 0.5;
   }
+}
+
+.icon + .title,
+.title + .icon {
+  margin-left: 8px;
 }
 
 .primary {
